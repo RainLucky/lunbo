@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>轮播图</title>
+    <link rel="stylesheet" href="./lunbo.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+    </div>
+    <button onclick="lun.stop()">停止</button>
+
+    <script src="../jquery.js"></script>
+    <script src="./lunbo.js"></script>
+    <script>
+        var arr = ['./img/1187604622e6f406f7o.jpg', './img/20130603165635_HFhC3.jpeg', './img/20130804115729_y4sJx.jpeg', './img/20131019010808_tMiw3.thumb.600_0.jpeg', './img/431567.jpg'];
+        lun.lunbo(arr, 'wrapper');
+    </script>
+</body>
+
+</html>
